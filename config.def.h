@@ -97,15 +97,11 @@ const
 #endif // XRESOURCES_PATCH
 char *colors[][2] = {
 	/*               fg         bg       */
-	// [SchemeNorm] = { "#9274ca", "#24283b" },
-	[SchemeNorm] = { "#0db9d7", "#24283b" },
-	// [SchemeNorm] = { "#7aa2f7", "#24283b" },
+	[SchemeNorm] = { "#7dcfff", "#24283b" },
 	[SchemeSel]  = { "#000000", "#7aa2f7" },
-	// [SchemeSel]  = { "#000000", "#9274ca" },
-	// [SchemeSel]  = { "#000000", "#0db9d7" },
-	[SchemeOut]  = { "#000000", "#0db9d7" },
+	[SchemeOut]  = { "#000000", "#7dcfff" },
 	#if BORDER_PATCH
-	[SchemeBorder] = { "#000000", "#0db9d7" },
+	[SchemeBorder] = { "#000000", "#7dcfff" },
 	#endif // BORDER_PATCH
 	#if MORECOLOR_PATCH
 	[SchemeMid]  = { "#eeeeee", "#770000" },
